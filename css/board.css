@@ -1,0 +1,149 @@
+.jZapInfoText {
+	text-align: center;
+	text-shadow: -1px 1px 0px black;
+	color: white;
+	font-size: 32px;
+}
+
+.jZapCountdownText {
+	text-align: center;
+	text-shadow: -1px 1px 0px black;
+	color: red;
+	font-size: 32px;
+}
+
+.scoreBoard {
+	text-align: left;
+	text-shadow: -1px 1px 0px black;
+	color: yellow;
+	font-size: 26px;
+}
+
+.playTileList {
+	position: relative;
+}
+
+.playTileListItem {
+	position: relative;
+	display: inline-block;
+	padding: 8px 8px 8px 8px;
+}
+
+.playTile {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 60px;
+	background-color: #c18e33;
+	color: black;
+	font-size: 42px;
+	text-align: center;
+	vertical-align: central;
+	box-shadow: -4px 4px 4px #000000;
+	-moz-box-shadow: -4px 4px 4px #000000;
+	-webkit-box-shadow: -4px 4px 4px #000000;
+}
+
+.playTile:hover {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-color: #c18e33;
+	color: white;
+}
+
+.playTile:active {
+	position: relative;
+	top: 0px;
+	left: -4px;
+	background-color: #c18e33;
+	color: white;
+	box-shadow: 0px 0px 0px #000000;
+	-moz-box-shadow: 0px 0px 0px #000000;
+	-webkit-box-shadow: 0px 0px 0px #000000;
+}
+
+.playTile-disabled {
+	position: relative;
+	width: 50px;
+	height: 60px;
+	background-color: #164f0a;
+	color: #0f880a;
+	font-size: 42px;
+	text-align: center;
+	vertical-align: central;
+	box-shadow: -4px 4px 4px #000000;
+	-moz-box-shadow: -4px 4px 4px #000000;
+	-webkit-box-shadow: -4px 4px 4px #000000;
+}
+
+.currentArrow {
+	position: absolute;
+	font-size: 32px;
+	font-weight: bold;
+	top: 32px;
+	left: 10px;
+	display: block;
+	color: red;
+}
+
+.shelfTileList {
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+.shelfTileListItem {
+	position: relative;
+	display: inline-block;
+	padding: 4px 4px 4px 4px;
+}
+
+.shelfTile-used {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 60px;
+	background-color: #dba011;
+	color: black;
+	font-size: 42px;
+	text-align: center;
+	vertical-align: central;
+	box-shadow: -4px 4px 4px #000000;
+	-moz-box-shadow: -4px 4px 4px #000000;
+	-webkit-box-shadow: -4px 4px 4px #000000;
+}
+
+.shelfTile-empty {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 60px;
+	background-color: #737373;
+	color: black;
+	font-size: 42px;
+	text-align: center;
+	vertical-align: central;
+	box-shadow: -4px 4px 4px #00000;
+	-moz-box-shadow: -4px 4px 4px #000000;
+	-webkit-box-shadow: -4px 4px 4px #000000;
+}
+
+.shelfTile-current {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 60px;
+	background-color: #495cf4;
+	color: black;
+	font-size: 42px;
+	text-align: center;
+	vertical-align: central;
+	box-shadow: -4px 4px 4px #00000;
+	-moz-box-shadow: -4px 4px 4px #000000;
+	-webkit-box-shadow: -4px 4px 4px #000000;
+}

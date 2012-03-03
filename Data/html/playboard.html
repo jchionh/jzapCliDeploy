@@ -1,0 +1,124 @@
+<div id="boardContainer" class="unselectable" style="position: absolute; width: 800px; height: 600px; top: 0px; left: 0px;">
+    <div id="leftField" style="position: absolute; width: 420px; height: 600px; top: 0px; left: 0px; background-color: #126421">
+        <div id="infoText" class="jZapInfoText" 
+            style="position: absolute; top: 25px; left: 20px; width: 386px; height: 112px;">This panel shows information that is relevant to the game progress of the player</div>
+        <div id="countdownText" class="jZapCountdownText" 
+            style="position: absolute; top: 150px; left: 20px; width: 386px; height: 37px;">30</div>
+
+        <div id="playTiles" 
+            
+            style="position: absolute; top: 198px; left: 29px; width: 364px; height: 208px;">
+            <ul class="playTileList">
+                <li class="playTileListItem"><div id="p0" class="playTile">A</div></li>
+                <li class="playTileListItem"><div id="p1" class="playTile">H</div></li>
+                <li class="playTileListItem"><div id="p2" class="playTile">E</div></li>
+                <li class="playTileListItem"><div id="p3" class="playTile">P</div></li>
+                <li class="playTileListItem"><div id="p4" class="playTile">T</div></li>
+                <li class="playTileListItem"><div id="p5" class="playTile">S</div></li>
+                <li class="playTileListItem"><div id="p6" class="playTile">O</div></li>
+                <li class="playTileListItem"><div id="p7" class="playTile">C</div></li>
+            </ul>
+        </div>
+        <div id="bottom-left" 
+            
+            style="position: absolute; top: 425px; left: 28px; width: 364px; height: 101px;">
+
+            <div id="buttonContainer" 
+                style="position: relative; top: 11px; left: 258px;">
+                <div id="btn-cmd" class="playTile" 
+                style="position: relative; font-size: 20px; width: 100px; height: 29px;">End Word</div>
+            </div>
+
+            <div id="scoreBoard" class="scoreBoard" style="display: none;">
+                <div>
+				<span id="player0">x</span>&nbsp;:&nbsp;<span id="score0">0</span>
+				</div>
+				<div>
+				<span id="player1">y</span>&nbsp;:&nbsp;<span id="score1">0</span>
+				</div>
+            </div>
+
+        </div>
+    </div>
+    <div id="rightField" style="position: absolute; width: 380px; height: 600px; top: 0px; left: 420px; background-color:#c18e33">
+        <div id="shelfTiles" style="position: absolute; top: 0px; left: 0px; width: 200px; height: 600px;">
+            <div id="r6" style="position: absolute; top: 10px; left: 8px; width: 364px;">
+                <div class="currentArrow" style="display: none;">&gt;</div>
+                <ul class="shelfTileList">
+                    <li class="shelfTileListItem"><div id="s0" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s1" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s2" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s3" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s4" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                </ul>
+            </div>
+
+            <div id="r5" style="position: absolute; top: 90px; left: 8px; width: 364px;">
+                <div class="currentArrow" style="display: none;">&gt;</div>
+                <ul class="shelfTileList">
+                    <li class="shelfTileListItem"><div id="s0" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s1" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s2" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s3" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s4" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                </ul>
+            </div>
+
+            <div id="r4" style="position: absolute; top: 170px; left: 8px; width: 364px;">
+                <div class="currentArrow" style="display: none;">&gt;</div>
+                <ul class="shelfTileList">
+                    <li class="shelfTileListItem"><div id="s0" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s1" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s2" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s3" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s4" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                </ul>
+            </div>
+
+            <div id="r3" style="position: absolute; top: 250px; left: 8px; width: 364px;">
+                <div class="currentArrow" style="display: none;">&gt;</div>
+                <ul class="shelfTileList">
+                    <li class="shelfTileListItem"><div id="s0" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s1" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s2" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s3" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s4" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                </ul>
+            </div>
+
+            <div id="r2" style="position: absolute; top: 330px; left: 8px; width: 364px;">
+                <div class="currentArrow" style="display: none;">&gt;</div>
+                <ul class="shelfTileList">
+                    <li class="shelfTileListItem"><div id="s0" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s1" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s2" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s3" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s4" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                </ul>
+            </div>
+
+            <div id="r1" style="position: absolute; top: 410px; left: 8px; width: 364px;">
+                <div class="currentArrow" style="display: none;">&gt;</div>
+                <ul class="shelfTileList">
+                    <li class="shelfTileListItem"><div id="s0" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s1" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s2" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s3" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s4" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                </ul>
+            </div>
+
+            <div id="r0" style="position: absolute; top: 490px; left: 8px; width: 364px;">
+                <div class="currentArrow" style="display: none;">&gt;</div>
+                <ul class="shelfTileList">
+                    <li class="shelfTileListItem"><div id="s0" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s1" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s2" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s3" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                    <li class="shelfTileListItem"><div id="s4" class="shelfTile shelfTile-empty">&nbsp;</div></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
